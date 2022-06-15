@@ -8,16 +8,28 @@
     <title>Acceuil</title>
 </head>
 <body>
-    <link rel="stylesheet" href="CSS/style.css">    
+    <link rel="stylesheet" href="CSS/style.css">  
+    <link rel="stylesheet" href="CSS/style-menu-drop.css">
     <main>
         <section>
             <nav>
-                <a href="Accueil.html" class="menu" target="_blank">Acceuil</a>
-                <a href="Carriere.html" class="menu" target="_blank">Carrière professionnelle</a>
-                <a href="Realisations.html" class="menu" target="_blank">Réalisations</a>
-                <a href="Education.html" class="menu" target="_blank">Education</a>
-                <a href="Contactez-nous.html" class="menu" target="_blank">Contactez-nous</a>
-                <a href="Validation.html" class="menu" target="_blank">Page de validation</a>
+                <a href=Acceuil.html" role="menu" target="_blank">Acceuil</a>
+                <a href="Carriere.html" role="menu" target="_blank">Carrière professionnelle</a>
+                <a href="Realisations.html" role="menu" target="_blank">Réalisations</a>
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        Education
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="https://www.cmaisonneuve.qc.ca/" target="_blank">CMaisonneuve</a>
+                        <a href="https://esg.uqam.ca/en/" target="_blank">ESG</a>
+                        <a href="https://www.umontreal.ca/" target="_blank">UDEM</a>
+                        <a href="https://www.hrce.ca/" target="_blank">HRCE</a>
+                    </div>
+                </div>
+                <a href="Contactez-nous.html" role="menu" target="_blank">Contactez-nous</a>
+                <a href="Validation.html" role="menu" target="_blank">Page de validation</a>
             </nav>
         </section>
         <div id="wrapper">    

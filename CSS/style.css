@@ -1,80 +1,49 @@
 html{
     margin: 0%;
     height: 100%;
-    background-color:lightsteelblue
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    background-color: #cfd9df
 }
-body{
-    padding: 20px 0px;
-}
-nav{
-    text-align: center;
 
- }
-nav > a{
-    background-color: steelblue;
-    color:lightsteelblue
-    text-decoration: none;
-    padding: 10px 20px;
-    text-transform: uppercase;
-    letter-spacing: 4px;
+body{
+    background-color: #cfd9df;
+    margin: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-nav a:hover{
-    background-color: whitesmoke;
-    color: black;
-    padding: 20px 20px;
-    transition-duration: 0.4s;
+
+nav {
+    background-color:black;
+    overflow: hidden;
+
 }
+
+nav a{
+    color: #999;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    float: left;
+}
+
 .radius
 {
     background-color: antiquewhite;
     padding: 3px;
     border-radius: 10px;
 }
-.menu{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: midnightblue;
-    padding: 17px;
-    text-decoration: none;
-    padding: 1px;
-}
+
 p{
-    font-size: 15px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
-li{
-    font-size: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-section{
-    padding: 1px;
-}
+
 #wrapper{
     background-color: floralwhite;
     padding: 10px;
     margin: 20px;
-    border-radius: 15px;
+    border-radius: 10px;
 }
-input{
-    display: block;
-    margin: 5px;
-}
-legend{
-    font-size: 20px; 
-}
-table
-{
-    border-collapse: collapse;
-}
-th{
-    color: darkgray
-    text-align: left;
-    border-radius: 3px;
-}
-tr:hover{
-    color:darkblue
-}
+
 footer{
     position:absolute;
     width: 100%;
@@ -83,4 +52,4 @@ footer{
     color: aliceblue;
     font-size: 15px;
     padding: 8px;
-}    
+}
