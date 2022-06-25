@@ -5,54 +5,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Najmeddine rafqi">
+    <!-- icons -->
+    <script src="https://kit.fontawesome.com/858c2ac378.js" crossorigin="anonymous"></script>
+    <!-- style css -->
+    <link rel="stylesheet" href="CSS/style.css">  
+    <link rel="stylesheet" href="CSS/style-menu-drop.css">
+    
     <title>Acceuil</title>
 </head>
 <body>
-    <link rel="stylesheet" href="CSS/style.css">  
-    <link rel="stylesheet" href="CSS/style-menu-drop.css">
     <main>
-        <section>
-            <nav>
-                <a href="Accueil.html" role="menuitem">Acceuil</a>
-                <a href="Carriere.html" role="menuitem">Carrière professionnelle</a>
-                <a href="Realisations.html" role="menuitem">Réalisations</a>
-                <div class="dropdown">
-                    <button class="dropbtn">
-                        Porfolio
-                        <i class="fa fa-caret-down"></i>
-                    </button>
-                    <div class="dropdown-content">
-                        <a href="#">Web design</a>
-                        <a href="#">Video editing</a>
-                        <a href="#">Music impro</a>
+        <div class="wrapper">
+                <nav class="main-nav">
+                    <a href="Accueil.html" role="menuitem">Acceuil</a>
+                    <a href="Carriere.html" role="menuitem">Carrière professionnelle</a>
+                    <a href="Realisations.html" role="menuitem">Réalisations</a>
+
+                    <div class="dropdown">
+            
+                        <button class="dropbtn">
+                            Porfolio
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+            
+                        <div class="dropdown-content">
+                            <a href="#">Web design</a>
+                            <a href="#">Video editing</a>
+                            <a href="#">Music prod</a>
+                        </div>
+            
                     </div>
+                    <a href="Education.html" role="menuitem">Education</a>
+                    <a href="Contactez-nous.html" role="menuitem">Contactez-nous</a>
+                    <a href="validation.html" role="menuitem">Page de validation</a>
+                </nav>
+                
+                <div id="page-design">
+                        <div class="img-box">
+                            <img src="/images/resume photo.jpg" class="img-responsive" alt="resume-photo">
+                        </div>
+    
+                        <div class="title">
+                            <h1>Développeur web</h1>
+                        </div>
+                    
+                        <div class="radius">
+                            <h2>Introduction</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, sapiente consequuntur eligendi obcaecati
+                                ad cum animi quas recusandae! Rerum dolorem ex fugit libero pariatur consectetur assumenda, repudiandae
+                                nihil rem sint.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident eveniet consequatur reprehenderit.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem sequi asperiores deserunt ipsam adipisci
+                                molestiae culpa labore deleniti, corporis iure perspiciatis vero debitis, sit dicta, corrupti doloremque
+                                eveniet eligendi illum blanditiis maiores. Voluptates hic sed eaque, enim dignissimos cum voluptatem!
+                            </p>
+                        </div>
                 </div>
-                <a href="Education.html" role="menuitem">Education</a>
-                <a href="Contactez-nous.html" role="menuitem">Contactez-nous</a>
-                <a href="validation.html" role="menuitem">Page de validation</a>
-            </nav>
-        </section>
-        <div id="page-design">    
-            <section>
-                <div class="img-box">
-                    <img src="/images/resume photo.jpg" class="img-responsive" alt="resume-photo">
-                </div>
-            </section>
-            <section>
-                <div class="title">
-                    <h1>Développeur web</h1>
-                </div>
-            </section>
-            <section>      
-                <div class="radius">  
-                    <h2>Introduction</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, sapiente consequuntur eligendi obcaecati ad cum animi quas recusandae! Rerum dolorem ex fugit libero pariatur consectetur assumenda, repudiandae nihil rem sint.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident eveniet consequatur reprehenderit.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem sequi asperiores deserunt ipsam adipisci molestiae culpa labore deleniti, corporis iure perspiciatis vero debitis, sit dicta, corrupti doloremque eveniet eligendi illum blanditiis maiores. Voluptates hic sed eaque, enim dignissimos cum voluptatem!</p>
-                </div>   
-            </section>
+                <footer>Tous droits réservés</footer>
         </div>
-        <footer>Tous droits réservés</footer>
     </main>
 </body>
 </html>
