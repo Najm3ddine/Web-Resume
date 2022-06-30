@@ -128,3 +128,22 @@ nav a:hover,
         float: none;
     }
 }
+
+/* Style page carriere carriere */
+
+.page-flex
+{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 10px;
+    gap: 10px;
+}
+
+section{
+    padding: 10px;
+    flex: 300px;
+}
+
+section:nth-of-type(2) {
+    flex: 600px;
+}
