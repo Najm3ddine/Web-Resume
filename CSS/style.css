@@ -125,23 +125,30 @@ nav a:hover, .dropdown:hover{
 
 /* Style page carriere carriere */
 
-main
-{
+main{
     display: flex;
-    flex-flow: row column;
+    flex-flow: row wrap;
     padding: 10px;
-    gap: 10px;
+    gap: 50px;
+    margin: 2em;
+    
 }
 
-section{
-    padding: 10px;
-    flex: 300px;
+.intro
+{
+    flex: 400px;
+    flex: 1;
+    margin-top: 10%
+
 }
 
-section:nth-of-type(2) {
-    flex: column 300px
+.experiences
+{
+    flex: 600px;
+    
 }
 
-section:nth-of-type(3) {
-    flex-flow: column 300px;
-}
+
+
+
+
