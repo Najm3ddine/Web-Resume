@@ -42,21 +42,18 @@ footer{
 
 /* drop down menu style */
 
-
-
-nav {
+nav{
     background-color: steelblue;
     overflow: hidden;
 }
 
-nav a {
+nav a{
     display: block;
     float: left;
     text-decoration: none;
 }
 
-nav a,
-.dropdown .dropbtn {
+nav a, .dropdown .dropbtn {
     text-transform: uppercase;
     color: black;
     padding: 10px 20px;
@@ -74,18 +71,16 @@ nav a,
     font-size: inherit;
 }
 
-nav a:hover,
-.dropdown:hover {
+nav a:hover, .dropdown:hover{
     background-color: azure;
     color: black;
-    transition-duration: 0.6s;
-
+    transition-duration: .6s;
 }
 
 .dropdown-content {
     display: none;
     position: absolute;
-    min-width: 128px;
+    min-width: 120px;
     box-shadow: 0px 8px 16px 0px rgb(0, 0, 0, 0.5);
     z-index: 1;
 }
@@ -110,20 +105,19 @@ nav a:hover,
         height: auto;
         position: relative;
     }
-    nav a, .dropbtn{
-        float: center;
+
+    nav a{
+        float: left;
     }
-    
+
 }
 
 @media screen and (max-width: 600px) {
-    nav a, .dropbtn{
+    nav a, .dropdown-content{
         float: none;
         text-align: center;
     }
-    .dropdown-content, .dropbtn{
-        float: none;
-    }
+
     .dropdown-content a, .dropbtn {
         float: none;
     }
@@ -131,10 +125,10 @@ nav a:hover,
 
 /* Style page carriere carriere */
 
-.page-flex
+main
 {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row column;
     padding: 10px;
     gap: 10px;
 }
@@ -145,5 +139,9 @@ section{
 }
 
 section:nth-of-type(2) {
-    flex: 600px;
+    flex: column 300px
+}
+
+section:nth-of-type(3) {
+    flex-flow: column 300px;
 }
