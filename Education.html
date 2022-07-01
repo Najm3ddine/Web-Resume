@@ -5,44 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Education</title>
+<link rel="stylesheet" href="CSS/style.css">     
 </head>
 <body>
-    <link rel="stylesheet" href="CSS/style.css">    
-    <header>Education</header>
-    <div id="wrapper">
-        <main>
-            <section>
-                <ul>
-                    <li><a href="Accueil.html" class="menu" target="_blank">Acceuil</a></li>
-                    <li><a href="Carriere.html" class="menu" target="_blank">Carrière professionnelle</a></li>
-                    <li><a href="Realisations.html" class="menu" target="_blank">Réalisations</a></li>
-                    <li><a href="Education.html" class="menu" target="_blank">Education</a></li>
-                    <li><a href="Contactez-nous.html" class="menu" target="_blank">Contactez-nous</a></li>
-                    <li><a href="Validation.html" class="menu" target="_blank">Page de validation</a></li>
-                </ul>
-            </section>
-            <section>
+    <nav class="main-nav">
+        <a href="Accueil.html" role="menuitem">Acceuil</a>
+        <a href="Carriere.html" role="menuitem">Carrière professionnelle</a>
+        <a href="Realisations.html" role="menuitem">Réalisations</a>
+        <div class="dropdown">
+            <button class="dropbtn">
+                Porfolio
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#">Web design</a>
+                <a href="#">Video editing</a>
+                <a href="#">Music prod</a>
+            </div>
+        </div>
+        <a href="Education.html" role="menuitem">Education</a>
+        <a href="Contactez-nous.html" role="menuitem">Contactez-nous</a>
+        <a href="validation.html" role="menuitem">Page de validation</a>
+    </nav>
+    <main>
+        <div class="container">
+            <div class="item1">
+
                 <h2>AEC en conception et programmation de sites web  Collège de Maisonneuve</h2>
-                <a href="https://www.cmaisonneuve.qc.ca/" target="_blank"><img src="images/maisonneuve.jpg" width="70" height="70" alt=""></a>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, blanditiis ea explicabo iusto dolores totam sed enim quidem repellendus, nisi animi, sunt asperiores possimus placeat cumque nemo nam maxime doloremque.</p>
-            </section>
-            <section>
+                
                 <h2>Certificat en administration des affaires Ecole des sciences de la gestion ESG</h2>
-                <a href="https://esg.uqam.ca/en/" target="_blank"><img src="images/esg.jpg" width="70" height="70" alt=""></a>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet est repudiandae, consequatur iure numquam error nostrum voluptate rem commodi vero! Alias maxime quos odit voluptatem minima asperiores fuga rerum consectetur.</p>
-            </section>
-            <section>
-                <h2>Année préparatoire aux études universitaires  Université de Montréal</h2>
-                <a href="https://www.umontreal.ca/" target="_blank"><img src="images/UniversiteDeMontreal.png" width="70" height="70" alt=""></a>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores sapiente error alias iure expedita! Maiores quo molestias facere ipsa eius dolores, mollitia, excepturi, nemo vel suscipit unde officiis sit error.</p>
-            </section>
-            <section>
-                <h2>Attestation de langue anglaise Halifax regional school board</h2>
-                <a href="https://www.hrce.ca/" target="_blank"><img src="images/Halifax.jpg" width="70" height="70" alt=""></a>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde veniam commodi qui, quasi odio delectus molestias, distinctio eum repudiandae animi voluptatibus illum cupiditate eligendi consectetur quas accusamus! Animi, modi velit!</p>
-            </section>
-        </main>
-    </div>
+
+            </div>
+            <div class="item2">
+
+                <a href="https://www.cmaisonneuve.qc.ca/" target="_blank"><img src="images/maisonneuve.jpg" width="70" height="70"
+                alt=""></a>
+                
+                <a href="https://esg.uqam.ca/en/" target="_blank"><img src="images/esg.jpg" width="70" height="70" alt=""></a>
+
+            </div>
+        </div>
+    </main>
     <footer>Tous droits réservés</footer>
 </body>
 </html>
