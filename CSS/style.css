@@ -139,29 +139,23 @@ main{
 
 /* Style de la page education */
 
-main
-{
-    padding: 10px;
-}
-
-.container
+.container-1
 {
     display: flex;
-    flex-wrap: wrap;
 }
 
-.container div
+.container-1 div
 {
     border: 1px solid black;
     
 }
 
-.item1
+.box1
 {
     flex: 1;
 }
 
-.item2
+.box2
 {
     flex: 1;
 }
