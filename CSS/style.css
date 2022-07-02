@@ -1,6 +1,7 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 
-.body{
+html .body{
+    height: 100%;
     background-color: #cfd9df;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
@@ -18,7 +19,7 @@
     height: 400px;
     background-image: url('/images/web-banner.jpg');
     background-size: 100% 100%;
-    border: 1px solid black;
+    border: 3px solid black;
 }
 
 main{
@@ -26,7 +27,7 @@ main{
 }
 
 footer{
-    position:fixed;
+    position: fixed;
     bottom: 0;
     width: 100%;
     background-color: steelblue;
@@ -47,14 +48,14 @@ nav{
 
 nav a{
     display: block;
-    float: left;
+    float:left;
     text-decoration: none;
 }
 
 nav a, .dropdown .dropbtn {
     text-transform: uppercase;
     color: black;
-    padding: 20px;
+    padding: 15px;
 }
 
 .dropdown {
@@ -179,5 +180,14 @@ main{
     margin-left: 30%;
 }
 
-/* Style table */
+/* Style form */
+
+form{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 8px;
+    box-sizing: border-box;
+    border: none;
+}
+
 

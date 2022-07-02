@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contactez-nous</title>
 <link rel="stylesheet" href="CSS/style.css">    
 </head>
 <body>
@@ -26,26 +25,20 @@
         <a href="Contactez-nous.html" role="menuitem">Contactez-nous</a>
         <a href="validation.html" role="menuitem">Page de validation</a>
     </nav>
-    <div id="main">
-        <h1>Informations</h1> 
-            <table>
-                <thead>
-                    <tr>
-                        <th>Nom et prenom</th>
-                        <th>E-mail</th>
-                        <th>telephone</th>
-                        <th>Ville</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Rafqi Najmeddine</td>
-                        <td>Najm.rafqi@hotmail.com</td>
-                        <td>(438)936-5008</td>
-                        <td>Montreal</td>
-                    </tr>
-                </tbody>
-            </table>
+    <div id="wrapper">
+            <div>
+                <h1>Laissez moi un message</h1>
+                <form action="Contactez-nous.html">
+                    <label for="Nom">Nom</label>
+                        <input type="text" id="Nom" placeholder="Votre nom" maxlength="10">
+                    <label for="Email">Email</label>
+                        <input type="email" id="Email" placeholder="Votre courriel">
+                    <p><label for="Message">Votre message:</label></p>
+                        <textarea name="Votre message" id="Message" cols="30" rows="10" placeholder="Votre message"></textarea>
+                    <br>
+                    <input type="submit" id="Envoyer">
+                </form>
+            </div>
     </div>
     <footer>Tous droits réservés</footer>
 </body>
