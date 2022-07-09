@@ -1,17 +1,10 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 
-html .body{
+html, body{
     height: 100%;
     background-color: #cfd9df;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
-}
-
-.wrapper
-
-{
-    font-size: 15px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .img{
@@ -22,21 +15,21 @@ html .body{
     border: 3px solid black;
 }
 
-main{
+.main{
+    display: block;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 footer{
-    position: fixed;
-    bottom: 0;
+    position: absolute;
     width: 100%;
     background-color: steelblue;
     text-align: center;
     color: black;
-    font-size: 15px;
+    font-size: 10px;
     padding: 8px;
-    margin-top: 20px;
 }
+
 
 /* drop down menu style */
 
